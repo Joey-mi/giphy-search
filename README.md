@@ -5,7 +5,7 @@
 This is a React Js web project using the Giphy API. Involves a webpage where you can search for gifs and if you like the gif and want to see
 more like it the site refers you to the profile of the Giphy user who made the gif. You can also sort your search by content ratings. So, If you're ok with seeing R rated gifs then selecting r allows gifs of ratings g through r to pop up.
 
-Since this object uses the Giphy API, to run it you need to create a <a href="https://developers.giphy.com/">Giphy Developers account</a> and go to
+Since this project uses the Giphy API, to run it you need to create a <a href="https://developers.giphy.com/">Giphy Developers account</a> and go to
 the dashboard and create an app to generate a key for interacting with the API.
 
 ## Steps to run as developer
