@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(41, 51, 80);
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.gif {
+    border: solid 5px #889aaa;
+}
+
+.container-gif {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.notfiy-state {
+    color: #889aaa;
+}
+
+i {
+    align-self: center;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.user {
+    border-right-style: double;
+    padding-right: 15px;
+    border-right-width: 10px;
+}
+
+.profile {
+    padding-left: 10px;
+}
+
+.pfp {
+    width: 7%;
+    margin-right: 10px;
+}
+
+.search-container .user,
+.search-container .nouser{
+    padding-top: 15px;
+    color: #a3e6e9;
+}
+
+.search-container .profile {
+    padding-top: 15px;
+    color: #a3e6e9;
+}
+
+h1 {
+    color: #a3e6e9;
+    align-self: center;
+}
+
+.search-container.info {
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.content-rate {
+    color: #a3e6e9;
+}
+
+form .search-container {
+    margin: 5px;
+}
+
+.search-container .content-rate {
+    padding-right: 5px;
+}
+
+.main-gif-constraints {
+    min-width: 400px;
+    max-width: 500px;
+}
