@@ -19,7 +19,7 @@ const Giphy = () => {
             try {
                 const results = await axios("https://api.giphy.com/v1/gifs/random", {
                     params: {
-                        api_key: "RHp7aEVUnGtBZcDfxUdDwoMlAldgDK67"
+                        api_key: "Input your api key here"
                     }
                 });
                  
@@ -125,7 +125,7 @@ const Giphy = () => {
 
             const results = await axios("https://api.giphy.com/v1/gifs/random", {
                 params: {
-                    api_key: "RHp7aEVUnGtBZcDfxUdDwoMlAldgDK67",
+                    api_key: "Input your api key here",
                     tag: search,
                     rating: chosen_rating
                 }
